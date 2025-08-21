@@ -1,2 +1,2 @@
-# myol-editor - MyOneList embeded editor
-### See: http://myonelist.klbu.eu
+# myol-editor - MyOneList Editor
+### Check more: http://archived-projects.kbdev.run/one-my-list
