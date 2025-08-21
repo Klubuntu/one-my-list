@@ -1,0 +1,27 @@
+[
+    [
+        "BackgroundNote",
+        "Warning Note !!!",
+        "Test"
+    ],
+    [
+        "BackgroundNote",
+        "Warning Note !!!",
+        "<strong>Bold<\/strong> <s>Text<\/s>"
+    ],
+    [
+        "BackgroundNote",
+        "Warning Note !!!",
+        "<strong>Bold<\/strong> <s>Text<\/s>"
+    ],
+    [
+        "BackgroundNote",
+        "Warning Note !!!",
+        "<br data-cke-filler=\"true\">"
+    ],
+    [
+        "BackgroundNote",
+        "Warning Note !!!",
+        "<br data-cke-filler=\"true\">"
+    ]
+]

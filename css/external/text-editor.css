@@ -1,0 +1,57 @@
+#container {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.ck-content {
+  background-color: transparent !important;
+  border-radius: 8px;
+}
+
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  height: 240px;
+  border-color: transparent !important;
+  background: transparent !important;
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+  border-color: var(--ck-color-base-border);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.ck-editor {
+  font-family: system-ui;
+}
+
+.ck .ck-toolbar[role="toolbar"] {
+  border-color: transparent !important;
+  background: transparent !important;
+}
+
+.ck .ck-toolbar__items {
+  font-size: 11.6px !important;
+}
+
+/*.ck .ck-balloon-panel{
+      top: 209px;
+      left: 179px !important;
+  }*/
+
+@media only screen and (max-width: 381px) {
+  .ck .ck-toolbar__items {
+    font-size: 11.3px !important;
+  }
+}
+
+@media only screen and (max-width: 371px) {
+  .ck .ck-toolbar__items {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .ck .ck-toolbar__items {
+    font-size: 13px !important;
+  }
+}

@@ -1,0 +1,42 @@
+body.dark{
+    -webkit-animation: fadein 0.6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.6s; /* Firefox < 16 */
+     -ms-animation: fadein 0.6s; /* Internet Explorer */
+      -o-animation: fadein 0.6s; /* Opera < 12.1 */
+         animation: fadein 0.6s;
+    background-color: #242424 !important;
+}
+
+header.dark,
+.header.dark{
+    -webkit-animation: fadein 0.9s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.9s; /* Firefox < 16 */
+     -ms-animation: fadein 0.9s; /* Internet Explorer */
+      -o-animation: fadein 0.9s; /* Opera < 12.1 */
+         animation: fadein 0.9s;
+    background-color: #506976 !important;
+}
+
+
+
+.note .label div i.dark,
+.note .label .title input.dark{
+    color: black !important;
+}
+
+header .actions .box.dark{
+    background-color: rgb(28 27 27 / 61%);
+}
+
+@media (prefers-color-scheme: dark) {
+    .app-loading span{
+      color: white;
+    }
+    .float{
+        box-shadow: 2px 2px 3px #5a5a5a;
+    }
+
+    .BackgroundBlack2{
+        background-color: #8d8d8d;
+    }
+  }
